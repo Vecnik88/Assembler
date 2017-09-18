@@ -1,6 +1,7 @@
 ORG 100h
 
 stack_base_address equ 200000h
+
 user_pm_code_base_address equ 400000h
 user_pm_code_size equ user_pm_code_end - user_pm_code_base_address
 
