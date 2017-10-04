@@ -6,7 +6,7 @@ user_pm_code_size equ user_pm_code_end - user_pm_code_base_address
 
 code_selector equ 8h
 data_selector equ 10h
-video_selector 18h
+video_selector equ 18h
 
 start:
 	mov ax, 3
